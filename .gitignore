@@ -1,0 +1,45 @@
+# IntelliJ
+.idea/
+.kotlin/
+*.iml
+
+# Android Studio
+.cxx/
+.externalNativeBuild/
+captures/
+*.aab
+*.apk
+output.json
+
+# Gradle
+.gradle/
+build/
+!src/**/build/
+
+# Local Configuration (sdk path, etc)
+*.properties
+!gradle.properties
+
+# Keystore
+*.jks
+*.keystore
+
+# Xcode
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings
+xcuserdata
+
+# Fleet
+.fleet/
+
+# Log/OS
+*.log
+
+# Mac OS
+.DS_Store
+
+# Project Files
